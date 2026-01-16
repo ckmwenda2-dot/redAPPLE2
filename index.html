@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>REDAPPLE | Premium Apple Reseller</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        />
+        <script type="module" src="/src/main.js"></script>
+    </head>
+
+    <body>
+        <div class="cursor-dot"></div>
+        <div class="cursor-outline"></div>
+
+        <nav class="navbar glass">
+            <div class="nav-container">
+                <a href="#" class="logo">
+                    <img
+                        src="/assets/RED_APPLE_KE_LOGO.png"
+                        alt="REDAPPLE"
+                        class="logo-img"
+                    />
+                </a>
+                <div class="nav-links">
+                    <a href="#home" class="nav-link active">Home</a>
+                    <a href="#products" class="nav-link">Products</a>
+                    <a href="#inquiry" class="nav-link">Inquiry</a>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                </div>
+                <button class="mobile-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+
+        <main>
+            <section id="home" class="hero-section">
+                <div class="hero-content fade-in-up">
+                    <h1 class="hero-title">
+                        IPhone 17 <span class="text-gradient">Pro Max</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        Experience the future of titanium. Power beyond limits.
+                    </p>
+                    <a href="#inquiry" class="btn btn-primary glow-effect"
+                        >Order Now</a
+                    >
+                </div>
+                <div class="hero-image-container fade-in-right">
+                    <div class="glow-bg"></div>
+                    <img
+                        src="/assets/CHASSSY.png"
+                        alt="iPhone 17 Pro"
+                        class="hero-phone floating"
+                    />
+                </div>
+            </section>
+
+            <section id="products" class="products-section">
+                <div class="section-header fade-in-observe">
+                    <h2 class="section-title">New Arrivals</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="product-grid">
+                    <!-- Product Card 1 -->
+                    <div class="product-card fade-in-observe">
+                        <div class="product-image-wrapper">
+                            <img
+                                src="/assets/17pm.png"
+                                alt="iPhone 17 Pro Max"
+                                class="product-img"
+                            />
+                            <div class="card-overlay">
+                                <button class="btn btn-sm">View Details</button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>iPhone 17 Pro Max</h3>
+                            <p class="price">From KES 205,000</p>
+                            <div class="color-options">
+                                <span class="color-dot red"></span>
+                                <span class="color-dot black"></span>
+                                <span class="color-dot silver"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 2 (Reused for demo) -->
+                    <div
+                        class="product-card fade-in-observe"
+                        style="transition-delay: 0.1s"
+                    >
+                        <div class="product-image-wrapper">
+                            <img
+                                src="/assets/iphone 16pm.png"
+                                alt="iPhone 16 Pro Max"
+                                class="product-img"
+                            />
+                            <div class="card-overlay">
+                                <button class="btn btn-sm">View Details</button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>iPhone 16 Pro Max</h3>
+                            <p class="price">From KES 175,000</p>
+                            <div class="color-options">
+                                <span class="color-dot titanium"></span>
+                                <span class="color-dot black"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 3 (Reused for demo) -->
+                    <div
+                        class="product-card fade-in-observe"
+                        style="transition-delay: 0.2s"
+                    >
+                        <div class="product-image-wrapper">
+                            <img
+                                src="/assets/iphoneair.png"
+                                alt="iPhone Air"
+                                class="product-img"
+                            />
+                            <div class="card-overlay">
+                                <button class="btn btn-sm">View Details</button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>iPhone Air</h3>
+                            <p class="price">From KES 145,000</p>
+                            <div class="color-options">
+                                <span class="color-dot blue"></span>
+                                <span class="color-dot yellow"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="inquiry" class="inquiry-section">
+                <div class="inquiry-container glass fade-in-observe">
+                    <div class="inquiry-content">
+                        <h2>Make an Inquiry</h2>
+                        <p>
+                            Interested in a product? Let us know and we'll get
+                            back to you instantly.
+                        </p>
+                        <ul class="contact-features">
+                            <li>
+                                <i class="fas fa-check-circle"></i> Official
+                                Warranty
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i> Same Day
+                                Delivery
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i> Best Market
+                                Price
+                            </li>
+                        </ul>
+                    </div>
+                    <form class="inquiry-form">
+                        <div class="input-group">
+                            <input
+                                type="text"
+                                placeholder="Your Name"
+                                required
+                            />
+                        </div>
+                        <div class="input-group">
+                            <input
+                                type="email"
+                                placeholder="Email Address"
+                                required
+                            />
+                        </div>
+                        <div class="input-group">
+                            <select>
+                                <option value="" disabled selected>
+                                    Select Product
+                                </option>
+                                <option value="iphone17promax">
+                                    iPhone 17 Pro Max
+                                </option>
+                                <option value="iphone17pro">
+                                    iPhone 17 Pro
+                                </option>
+                                <option value="iphone17">iPhone 17</option>
+                                <option value="other">Other Accessories</option>
+                            </select>
+                        </div>
+                        <div class="input-group">
+                            <textarea
+                                placeholder="Your Message"
+                                rows="4"
+                            ></textarea>
+                        </div>
+                        <button
+                            type="submit"
+                            class="btn btn-primary btn-block glow-effect"
+                        >
+                            Send Inquiry
+                        </button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <img
+                            src="/assets/RED_APPLE_KE_LOGO.png"
+                            alt="REDAPPLE"
+                            class="logo-img"
+                        />
+                    </a>
+                    <h3>REDAPPLE</h3>
+                    <p>Your premium source for Apple products.</p>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2026 REDAPPLE KE. All rights reserved.</p>
+                    <div class="footer-socials">
+                        <a href="https://www.instagram.com/red.apple.ke/"
+                            ><i class="fab fa-instagram"></i
+                        ></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
