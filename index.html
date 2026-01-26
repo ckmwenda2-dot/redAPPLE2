@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <link rel="icon" type="image/svg+xml" href="/mwenda.svg" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>REDAPPLE | Premium Apple Reseller</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -175,10 +175,15 @@
                             </li>
                         </ul>
                     </div>
-                    <form class="inquiry-form">
+                    <form
+                        class="inquiry-form"
+                        action="https://formspree.io/f/xbdoobgo"
+                        method="POST"
+                    >
                         <div class="input-group">
                             <input
                                 type="text"
+                                name="name"
                                 placeholder="Your Name"
                                 required
                             />
@@ -186,12 +191,22 @@
                         <div class="input-group">
                             <input
                                 type="email"
+                                name="email"
                                 placeholder="Email Address"
                                 required
                             />
                         </div>
+
                         <div class="input-group">
-                            <select>
+                            <input
+                                type="tel"
+                                name="phone"
+                                placeholder="Phone Number"
+                                required
+                            />
+                        </div>
+                        <div class="input-group">
+                            <select name="product">
                                 <option value="" disabled selected>
                                     Select Product
                                 </option>
@@ -203,10 +218,11 @@
                                 </option>
                                 <option value="iphone17">iPhone 17</option>
                                 <option value="other">Other Accessories</option>
-                            </select>
+                            </selectname>
                         </div>
                         <div class="input-group">
                             <textarea
+                                name="Message"
                                 placeholder="Your Message"
                                 rows="4"
                             ></textarea>
